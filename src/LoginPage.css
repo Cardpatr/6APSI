@@ -1,19 +1,24 @@
-
-body {
-    background-image: url('D:\APSI\LandingLogin\6APSI\public\nahidabeast.png');
-    background-size: 100px 100px;
-  }
-  
-  .container {
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-image: url('D:\APSI\LandingLogin\6APSI\public\nahidabeast.png'); 
+    background-size: 150px 150px;
+    background-repeat: repeat;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
- 
- 
   }
   
-  .box {
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .login-box {
     background-color: rgba(134, 252, 0, 0.8); 
     padding: 20px;
     border-radius: 50px;
@@ -36,7 +41,7 @@ body {
   }
   
   button {
-    width: 25%;
+    width: 50%;
     padding: 10px;
     background-color: #0b7a1a;
     color: #fff;
