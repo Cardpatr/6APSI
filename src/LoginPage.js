@@ -1,21 +1,21 @@
 import React, { useState } from 'react';
+import './LoginPage.css'; // Import the CSS file
 
 function LoginPage() {
- 
   return (
-    <div>
-      <h2>Login</h2>
-      <input
-        type="text"
-        placeholder="Username"
-       
-      /><br />
-      <input
-        type="password"
-        placeholder="Password"
-     
-      /><br />
-      <button >Login</button>
+    <div className="container">
+      <div className="box">
+        <h2>Welcome</h2>
+        <input
+          type="text"
+          placeholder="Username"
+        /><br />
+        <input
+          type="password"
+          placeholder="Password"
+        /><br />
+        <button>Login</button>
+      </div>
     </div>
   );
 }

@@ -1,0 +1,47 @@
+
+body {
+    background-image: url('D:\APSI\LandingLogin\6APSI\public\nahidabeast.png');
+    background-size: 100px 100px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ 
+ 
+  }
+  
+  .box {
+    background-color: rgba(134, 252, 0, 0.8); 
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #4dd318;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #49ee08;
+    border-radius: 20px;
+  }
+  
+  button {
+    width: 25%;
+    padding: 10px;
+    background-color: #0b7a1a;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
